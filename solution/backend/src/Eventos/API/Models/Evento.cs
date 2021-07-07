@@ -1,8 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace API.Models
 {
     public class Evento
     {
+        [Key]
         public int EventId { get; set;}
         public string Local { get; set;}
         public DateTime DataEvento { get; set;}

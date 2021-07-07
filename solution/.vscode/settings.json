@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:solution}/backend/src/Eventos/API/Eventos.db",
+            "name": "Eventos",
+            "group": "Eventos"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
