@@ -2,3 +2,8 @@ dotnet tool list --global
 dotnet tool install --global dotnet-ef
 dotnet-ef migrations add Initial -o Data/Migrations
 dotnet-ef database update
+
+
+
+https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers
+https://ng-bootstrap.github.io/#/home
